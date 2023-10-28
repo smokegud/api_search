@@ -19,7 +19,7 @@ export interface InputProps {
   placeholder?: string;
   type?: string;
   value?: string;
-  onChange?: (e: any) => void;
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
   ref?: React.RefObject<HTMLInputElement>;
 }
 
