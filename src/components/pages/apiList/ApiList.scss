@@ -1,0 +1,30 @@
+.list {
+    margin: 0 auto;
+    &__title {
+        font-size: 50px;
+        text-align: center;
+    }
+    &__data {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li + li {
+            margin-top: 20px;
+        }
+    }
+
+    &__spinner {
+        margin-top: 200px;
+    }
+
+    &__info {
+        margin-top: 150px;
+        font-size: 40px;
+    }
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+}

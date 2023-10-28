@@ -1,0 +1,23 @@
+.select {
+    width: 120px;
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    height: 47px;
+    border-radius: 10px;
+    margin-left: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    &__arrow {
+        width: 28px;
+        transition: all 0.2s ease;
+        top: 9px;
+        left: 102px;
+        position: relative;
+        pointer-events: none;
+    }
+}

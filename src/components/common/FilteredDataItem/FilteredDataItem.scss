@@ -1,0 +1,29 @@
+h2,
+p {
+    margin: 0;
+}
+
+.data__item {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 20px;
+    border: 1px solid #142d4c;
+    border-radius: 10px;
+
+    &-title {
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    &-descr {
+        text-align: justify;
+    }
+
+    &-link {
+        margin-top: 5px;
+        color: #bbe4e9;
+    }
+}
